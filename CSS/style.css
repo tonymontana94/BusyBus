@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 8px;
+  box-sizing: border-box;
+  height: 650px;
+}
+
+header {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 13px;
+}
+
+.iconsL {
+  text-align: left;
+  margin-top: -25px;
+}
+
+.iconsR {
+  text-align: right;
+}
+
+.percent {
+  text-align: right;
+  margin-right: 30px;
+  margin-bottom: -40px;
+}
