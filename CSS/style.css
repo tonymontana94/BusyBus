@@ -75,6 +75,30 @@ map {
   position: absolute;
     left: 170px;
 }
+/**Bus Table**/
+.table{
+  display: block;
+  width: 100%;
+}
+/**121 bus**/
+.one h3 {
+  font-size: 15px;
+  color: green;
+  position: absolute;
+    left: 110px;
+    top: 542px;
+}
+.one h4 {
+  font-size: 15px;
+  color: silver;
+  margin-top: -15px;
+}
+.one h5 {
+  color: silver;
+  position: absolute;
+    right: 20px;
+    top: 555px;
+}
 /**icon nav bar**/
 .bottom-nav {
   width: 100%;
