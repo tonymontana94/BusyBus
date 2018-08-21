@@ -1,32 +1,99 @@
 body {
-  background-color: white;
-  font-family: sans-serif;
-  font-size: 8px;
-  box-sizing: border-box;
-  height: 650px;
+margin: 1px;
+font-style: normal;
+font-family: sans-serif;
 }
 
-header {
-  box-sizing: border-box;
-  width: 100%;
+/**Wifi**/
+.status-left {
+  margin: 1px;
+  float: left;
+  position: absolute;
+    top:5px;
+    left:10px;
 }
-
-h1 {
-  text-align: center;
-  font-size: 13px;
+/**Battery Icon**/
+.status-right {
+  margin: 1px
+  float: right;
+  position:absolute;
+    top:6px;
+    right: 10px;
 }
-
-.iconsL {
-  text-align: left;
-  margin-top: -25px;
-}
-
-.iconsR {
-  text-align: right;
-}
-
+/**100%**/
 .percent {
-  text-align: right;
-  margin-right: 30px;
-  margin-bottom: -40px;
+  font-size: 10px;
+  float: right;
+  position: absolute;
+    top:-6px;
+    right: 35px;
+
+}
+/**time**/
+.time {
+  font-size: 12px;
+  position: absolute;
+    left:150px;
+    top:-5px;
+}
+/**street name and top container**/
+.top {
+  margin-top: 30px;
+  margin-bottom: 90px;
+  background-color: blue;
+}
+/**back button**/
+.back {
+  padding: 4px;
+  float: left;
+  color: #157EFB;
+  position: absolute;
+    top:40px;
+    left:15px;
+}
+/**street name**/
+.street {
+  font-size: 10px;
+  position: absolute;
+  left: 100px;
+  top: 40px;
+}
+/**Map**/
+map {
+
+
+}
+/** Expander Bar **/
+.expanderBar {
+  margin: 0px;
+  padding-bottom: 40px;
+  background-color: #359DD9;
+}
+.down {
+  margin: 5px;
+  color: white;
+  position: absolute;
+    left: 170px;
+}
+/**icon nav bar**/
+.bottom-nav {
+  width: 100%;
+  background-color: #F8F8F8;
+  overflow: auto;
+}
+
+.bottom-nav a {
+  float: left;
+  text-align: center;
+  width: 25%;
+  padding: 12px 0;
+  color: #A1A1A1;
+}
+
+.bottom-nav h2 {
+  font-size: 10px;
+}
+/** home hover red, I tried to select to red but overridden?**/
+.home {
+  color: red;
 }
