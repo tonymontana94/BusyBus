@@ -99,6 +99,87 @@ map {
     right: 20px;
     top: 555px;
 }
+/**111 bus**/
+.two { /**why doesn't this work?**/
+  border: black;
+  border-bottom: thick;
+}
+.two h3 {
+  font-size: 15px;
+  color: green;
+  position: absolute;
+    left: 110px;
+    top: 614px;
+}
+.two h4 {
+  font-size: 15px;
+  color: silver;
+  margin-top: -15px;
+}
+.two h5 {
+  color: silver;
+  position: absolute;
+    right: 20px;
+    top: 622px;
+}
+/**32 bus**/
+.three h3 {
+  font-size: 15px;
+  color: green;
+  position: absolute;
+    left: 110px;
+    top: 682px;
+}
+.three h4 {
+  font-size: 15px;
+  color: silver;
+  margin-top: -15px;
+}
+.three h5 {
+  color: silver;
+  position: absolute;
+    right: 20px;
+    top: 690px;
+}
+/**54 bus**/
+.four h3 {
+  font-size: 15px;
+  color: green;
+  position: absolute;
+    left: 110px;
+    top: 750px;
+}
+.four h4 {
+  font-size: 15px;
+  color: silver;
+  margin-top: -15px;
+}
+.four h5 {
+  color: silver;
+  position: absolute;
+    right: 20px;
+    top: 755px;
+}
+/**112 bus**/
+.five h3 {
+  font-size: 15px;
+  color: green;
+  position: absolute;
+    left: 110px;
+    top: 820px;
+}
+.five h4 {
+  font-size: 15px;
+  color: silver;
+  margin-top: -15px;
+}
+.five h5 {
+  color: silver;
+  position: absolute;
+    right: 20px;
+    top: 825px;
+}
+
 /**icon nav bar**/
 .bottom-nav {
   width: 100%;
