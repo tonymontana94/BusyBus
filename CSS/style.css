@@ -1,7 +1,12 @@
 body {
 margin: 2px;
 font-style: normal;
-font-family: sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
+
+}
+
+.container {
+  width: 375px;
 }
 
 /**Wifi**/
@@ -40,7 +45,7 @@ font-family: sans-serif;
 .top {
   margin-top: 30px;
   margin-bottom: 90px;
-  background-color: blue;
+  background-color: grey;
 }
 /**back button**/
 .back {
@@ -60,7 +65,7 @@ font-family: sans-serif;
 }
 /**Map**/
 map {
-
+width:375px;
 
 }
 /** Expander Bar **/
@@ -179,9 +184,8 @@ map {
     right: 20px;
     top: 825px;
 }
-
 /**icon nav bar**/
-.bottom-nav {
+.footer {
   width: 100%;
   background-color: #F8F8F8;
   overflow: auto;
@@ -193,7 +197,7 @@ map {
   padding: 12px 0;
   color: #A1A1A1;
 }
-.bottom-nav h2 {
+.footer h2 {
   font-size: 10px;
 }
 .home {
