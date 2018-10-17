@@ -4,36 +4,89 @@ font-style: normal;
 font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
 font-weight: lighter;
 }
-a
+
 .container {
   width: 100%;
   height: 667px;
 }
 
+/**Wifi**/
+.status-left {
+  margin: 1px;
+  float: left;
+  position: absolute;
+    top:5px;
+    left:10px;
+}
+/**Battery Icon**/
+.status-right {
+  margin: 1px
+  float: right;
+  position:absolute;
+    top:6px;
+    right: 10px;
+}
+/**100%**/
+.percent {
+  font-size: 10px;
+  float: right;
+  position: absolute;
+    top:-6px;
+    right: 35px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+/**time**/
+.time {
+  font-size: 12px;
+  position: absolute;
+    left:150px;
+    top:-5px;
+}
+/**street name and top container**/
+.top {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  background-color: #F8F8F8;
+  height: 70px;
+}
+/**back button**/
+.back {
+  padding: 4px;
+  float: left;
+  color: #157EFB;
+  position: absolute;
+    top:45px;
+    left:15px;
+}
+/**street name**/
+.street {
+  font-size: 15px;
+  position: absolute;
+  left: 100px;
+  top: 35px;
+}
+/**Map**/
+map {
+width:100%;
+}
+/** Expander Bar **/
+.expanderBar {
+  margin: -4px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  padding-bottom: 40px;
+  background-color: #359DD9;
+}
+.down {
+  margin: 6px;
+  color: white;
+  position: absolute;
+    left: 170px;
+}
 /**icon nav bar**/
-footer {
+.footer {
   width: 100%;
+  height:110px;
   background-color: #F8F8F8;
   overflow: auto;
 }
