@@ -1,0 +1,56 @@
+body {
+margin: 2px;
+font-style: normal;
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
+font-weight: lighter;
+}
+a
+.container {
+  width: 100%;
+  height: 667px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**icon nav bar**/
+footer {
+  width: 100%;
+  background-color: #F8F8F8;
+  overflow: auto;
+}
+.alert, .favorite, .tickets {
+  float: left;
+  text-align: center;
+  width: 25%;
+  padding: 12px 0;
+  color: #A1A1A1;
+}
+.footer h2 {
+  font-size: 10px;
+}
+.home {
+  float: left;
+  text-align: center;
+  width: 25%;
+  padding: 12px 0;
+  color: red;
+}
