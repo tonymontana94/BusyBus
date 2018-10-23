@@ -54,9 +54,12 @@ font-weight: lighter;
   margin-left: -2px;
 }
 /**expanderBar**/
+/** Expander Bar **/
 .expanderBar {
-  width: 102%;
-  height: 5px;
+  margin: -4px;
+  margin-top: -10px;
+  padding-bottom: 6px;
+  background-color: #359DD9;
 }
 .expanderBar i {
   display: inline-block;
@@ -65,22 +68,6 @@ font-weight: lighter;
   color: white;
 
 }
-/*Table*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**Map**/
 map {
 width:100%;
@@ -88,13 +75,10 @@ width:100%;
 
 /*Table*/
 
-.row line {
-  display: inline-block;
-  
-}
 .table {
   height: 200px;
   overflow-y: scroll;
+  background-color: none;
 }
 .row {
   width:100%;
@@ -102,56 +86,45 @@ width:100%;
   display: inline-block;
 }
 
+.direction h1 {
+  display: inline-block;
+  font-weight: bold;
+  width: 105%;
+  background-color: #3C9ED7;
+  margin-top: 5px;
+  padding: 10px;
+  color: white;
+}
+
 .line {
-  float: left;
-  margin-left: -30px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 .destination {
-  width: 40%;
-float: center;
-font-size: 12px;
-margin-left: 50px;
+  display: inline-block;
+font-size: 14px;
+  margin-left: 20px;
 }
 
 .frequency {
-  width: 110px;
+  display: inline-block;
   float:right;
   font-size: 12px;
-  margin-right: 50px;
+  margin-right: 15px;
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** Expander Bar **/
-.expanderBar {
-  margin: -4px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-  padding-bottom: 40px;
-  background-color: #359DD9;
+.frequency h2 {
+  color: red;
 }
-.down {
-  margin: 6px;
-  color: white;
-  position: absolute;
-    left: 170px;
+.frequency h3 {
+  color: orange;
 }
 /**icon nav bar**/
 .footer {
