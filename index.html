@@ -3,48 +3,42 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/style2.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
   <section class="container">
-    <header class="status">    </header>
+    <header class="status">
       <section class="status-left">
-        <id class="Wifi">
         <i class="fas fa-wifi fa-1x"></i>
-        </id>
-        <id class="signal">
         <i class="fas fa-signal fa-1x"></i>
-        </id>
       </section>
       <section class="status-right">
-        <id class="battery">
+        <h2> 100% </h2>
         <i class="fas fa-battery-full fa-1x"></i>
-        </id>
       </section>
-      <id class="percent">
-      <h2> 100% </h2>
-      </id>
-      <id class="time">
-      <h3>9:41 AM</h3>
-      </id>
+        <i class="time">
+        <h3>9:41 AM</h3>
+        </i>
+      </header>
 <nav class="top">
-  <id class="back">
+  <i class="back">
   <i class="fas fa-chevron-left fa-2x"></i>
-  </id>
-  <id class="street">
+  </i>
+  <i class="street">
   <h1> Washington and State </h1>
-  </id>
+  </i>
 </nav>
 <section class="map">
     <img src="images/map.png">
 </section>
 <section class="expanderBar">
-  <id class="down">
   <i class="fas fa-chevron-down fa-2x"></i>
-  </id>
 </section>
 <section class="table">
+    <ul class="row">
+      <li class= "Direction"> Eastbound </li>
     <ul class="row">
       <li class= "line">60</li>
       <li class= "destination">Randolph/Harbor Dr</li>
@@ -56,10 +50,14 @@
       <li class= "frequency">Every 10 minutes</li>
     </ul>
     <ul class="row">
+      <li class= "Direction"> Northbound </li>
+    <ul class="row">
       <li class= "line">151</li>
       <li class= "destination">Devon/Clark</li>
       <li class= "frequency">Every 16 minutes</li>
     </ul>
+    <ul class="row">
+      <li class= "Direction"> Southbound </li>
     <ul class="row">
       <li class= "line">J14</li>
       <li class= "destination">103rd/Stony Island</li>
@@ -71,10 +69,14 @@
       <li class= "frequency">Every 10 minutes</li>
     </ul>
     <ul class="row">
+      <li class= "Direction"> Reroute </li>
+    <ul class="row">
       <li class= "line">6x</li>
       <li class= "destination">Jackson Park Express</li>
       <li class= "frequency">N/A</li>
     </ul>
+    <ul class="row">
+      <li class= "Direction"> Out of Service </li>
     <ul class="row">
       <li class= "line">4</li>
       <li class= "destination">Cottage Grove</li>
