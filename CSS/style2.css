@@ -1,5 +1,5 @@
 body {
-margin: 2px;
+margin: 0px;
 font-style: normal;
 font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
 font-weight: lighter;
@@ -37,36 +37,21 @@ font-weight: lighter;
   background-color: #FFFFFF;
   width: 100%;
 }
-.back {
+.fa-chevron-left {
   margin-top: 10px;
   margin-left: 5px;
   display: inline-block;
   color: #3C9ED7;
 }
-.street {
+.top h1 {
   display: inline-block;
-  margin-left: 80px;
+  margin-left: 85px;
   margin-bottom: 15px;
 }
 
 /*Map*/
 .map {
   margin-left: -2px;
-}
-/**expanderBar**/
-/** Expander Bar **/
-.expanderBar {
-  margin: -4px;
-  margin-top: -10px;
-  padding-bottom: 6px;
-  background-color: #359DD9;
-}
-.expanderBar i {
-  display: inline-block;
-  padding-left: 48%;
-  padding-top: 3%;
-  color: white;
-
 }
 /**Map**/
 map {
@@ -76,7 +61,8 @@ width:100%;
 /*Table*/
 
 .table {
-  height: 200px;
+  height: 315px;
+  width: 100%;
   overflow-y: scroll;
   background-color: none;
 }
@@ -89,9 +75,8 @@ width:100%;
 .direction h1 {
   display: inline-block;
   font-weight: bold;
-  width: 105%;
+  width: 95%;
   background-color: #3C9ED7;
-  margin-top: 5px;
   padding: 10px;
   color: white;
 }
@@ -107,7 +92,7 @@ width:100%;
 .destination {
   display: inline-block;
 font-size: 14px;
-  margin-left: 20px;
+
 }
 
 .frequency {
@@ -124,12 +109,17 @@ font-size: 14px;
   color: red;
 }
 .frequency h3 {
-  color: orange;
+  color: grey;
+}
+
+/*Out Of Service*/
+.OOS {
+  color: grey;
 }
 /**icon nav bar**/
 .footer {
   width: 100%;
-  height:110px;
+  height:70px;
   background-color: #F8F8F8;
   overflow: auto;
 }
